@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(231, 231, 231);
+}
+
+.principal{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px silver;
+}
+
+form{
+    padding: 50px;
+}
+
+#nome, #telefone, #email, #titulo2{
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+#bloco{
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px silver;
+}
+label{
+    display: block;
+}
+input{
+    margin-bottom: 15px;
+}
+
+textarea{
+    display: block;
+}
