@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>formulario</title>
+</head>
+<body>
+    <div class="principal">
+        <h1>Cadastro de Clientes</h1>
+        <section>
+            <form>
+                <label for="nome">Seu nome*:</label>
+                <input id="nome" type="text" placeholder="Seu nome" required maxlength="150">
+                
+                <label for="telefone">Seu Telefone:</label>
+                <input id="telefone" type="number" placeholder="telefone" required >
+                
+                <label for="email">Seu E-Mail*</label>
+                <input id="email" type="email" placeholder="E-Mail" required>
+
+                <h3>Deseja receber nossas novidades?</h3>
+                <input type="radio" name="radio" checked>Sim
+                <input type="radio" name="radio">Não
+
+                <label for="Escreva">Sua mensagem:</label>
+                <textarea id="bloco" placeholder="Mensagem*" rows="10" cols="70"></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+    
+</body>
+
+</html>
